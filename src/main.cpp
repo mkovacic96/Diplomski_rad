@@ -111,7 +111,6 @@ void callback(char* topic, byte* message, unsigned int length) {
   }       
 } 
 
-  
 void loop() {
   if(Serial.available()){
     
