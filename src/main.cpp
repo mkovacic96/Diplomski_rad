@@ -54,7 +54,6 @@ void setup() {
   autoFilter=1;
 }
 
-  
 void callback(char* topic, byte* message, unsigned int length) {  
       
   String messageTemp;  
